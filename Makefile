@@ -1,4 +1,4 @@
-THELOUNGE_VERSION?=2.7.1
+THELOUNGE_VERSION?=next
 ORGANISATION?=thelounge
 
 all: main alpine slim

@@ -21,6 +21,6 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # Install thelounge.
-ARG THELOUNGE_VERSION=2.7.1
+ARG THELOUNGE_VERSION=next
 RUN npm install -g thelounge@${THELOUNGE_VERSION} && \
     npm cache clean

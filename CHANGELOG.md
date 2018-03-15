@@ -1,5 +1,8 @@
 # Changelog
 
+## Next (2018-03-15)
+- bump [`thelounge`][1] to [`next`]
+
 ## 2.7.1 (2018-02-19)
 
 - bump [`thelounge`][1] to [`v2.7.1`](https://github.com/thelounge/lounge/releases/tag/v2.7.1)
