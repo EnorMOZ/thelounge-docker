@@ -15,6 +15,7 @@ CMD ["thelounge", "start"]
 COPY docker-entrypoint.sh /usr/local/bin/docker-entrypoint.sh
 
 # Install thelounge.
-ARG THELOUNGE_VERSION=next
-RUN npm install -g thelounge@${THELOUNGE_VERSION} && \
+#ARG THELOUNGE_VERSION=next
+#RUN npm install -g thelounge@${THELOUNGE_VERSION} && \
+RUN npm install -g thelounge && \
     npm cache clean
